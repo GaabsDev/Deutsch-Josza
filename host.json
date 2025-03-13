@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "Microsoft.Quantum.Sdk": {
+      "targetFramework": "netstandard2.0"
+    }
+  },
+  "entryPoint": "Application.Program.Main"
+}

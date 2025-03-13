@@ -1,0 +1,31 @@
+ProjectName: DeutschJozsa
+
+GlobalSection(SolutionConfiguration) = preSolution
+    Debug = Debug|AnyCPU
+    Release = Release|AnyCPU
+EndGlobalSection
+
+GlobalSection(ProjectConfiguration) = postSolution
+    {GUID1}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+    {GUID1}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+    {GUID1}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+    {GUID1}.Release|AnyCPU.Build.0 = Release|AnyCPU
+EndGlobalSection
+
+GlobalSection(ExtensibilityGlobals) = postSolution
+    SolutionGuid = {YOUR-SOLUTION-GUID}
+EndGlobalSection
+
+Project("{GUID1}") = "Domain", "Domain\Domain.qsproj", "{GUID1}"
+EndProject
+
+Project("{GUID2}") = "Infrastructure", "Infrastructure\Infrastructure.qsproj", "{GUID2}"
+EndProject
+
+Project("{GUID3}") = "Application", "Application\Application.qsproj", "{GUID3}"
+EndProject
+
+GlobalSection(SolutionItems) = preSolution
+    README.md = README.md
+    host.json = host.json
+EndGlobalSection
